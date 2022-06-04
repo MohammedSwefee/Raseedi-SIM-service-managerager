@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dev.edmt.babylonaReader.tab1"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="166dp"
+        android:layout_height="180dp"
+        android:layout_above="@+id/company"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/sim"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="125dp"
+        android:layout_height="47dp"
+        android:layout_above="@+id/supportno"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="اسم االشركة"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <EditText
+        android:id="@+id/company"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignStart="@+id/supportno"
+        android:hint="Zain"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="125dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="خدمة العملاء"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <EditText
+        android:id="@+id/supportno"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/textView9"
+        android:layout_alignStart="@+id/card_code"
+        android:hint="118"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="125dp"
+        android:layout_height="47dp"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="23dp"
+        android:text="كود التعبئة"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <EditText
+        android:id="@+id/card_code"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/balance"
+        android:layout_alignTop="@+id/textView9"
+        android:ems="10"
+        android:hint="*101#"
+        android:inputType="phone"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <ImageView
+        android:id="@+id/imageadd"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/balance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+
+        android:paddingBottom="30dp"
+        android:src="@drawable/add"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="125dp"
+        android:layout_height="47dp"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="20dp"
+        android:text="كود الرصيد"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/balance"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignStart="@+id/imageadd"
+        android:ems="10"
+        android:hint="*100#"
+        android:inputType="phone"
+        android:textSize="24dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">تطبيق رصيدي</string>
+    <string name="title_activity_main">Choose your sim card  ---></string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_view">تطبيق رصيدي</string>
+    <string name="title_activity_configure">configure</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_review">Raseedi رصيدي</string>
+    <string name="tab_text_1">خدمات أساسية</string>
+    <string name="tab_text_2">نوع الشريحة</string>
+    <string name="tab_text_3">إضافة شريحة</string>
+</resources>
